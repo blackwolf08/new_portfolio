@@ -91,7 +91,8 @@ body {
 
 @media (max-width: 576px) {
   .slide1_root {
-    min-height: 240vh;
+    min-height: 200vh;
+    margin-top: -200px;
     min-width: 200vw;
     -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
@@ -133,7 +134,7 @@ body {
     justify-content: flex-start;
     font-size: 3rem;
     padding: 0 5rem;
-    padding-top: 10rem;
+    padding-top: 1rem;
   }
 
   .nav {
@@ -174,7 +175,7 @@ body {
     height: 200px;
     width: 200px;
     left: 30px;
-    top: 30px;
+    top: -170px;
     position: fixed;
     background-position: center center;
     background-size: cover;
