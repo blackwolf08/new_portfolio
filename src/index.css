@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 32px;
+  color: #eee;
+}
+
+.slide1_root {
+  min-height: 200vh;
+  min-width: 200vw;
+  -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.slide1_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem;
+}
+
+.slide1_content_head {
+  font-weight: 700;
+}
+
+.content_head_dot {
+  color: #ff5252;
+}
+
+.slide1_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-size: 1.3rem;
+  padding: 0 5rem;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  min-height: 80vh;
+  min-width: 80vh;
+  top: 0;
+  -webkit-transform: translate(0, -20px) rotate(90deg);
+  -ms-transform: translate(0, -20px) rotate(90deg);
+  transform: translate(0, -20px) rotate(90deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.nav_item {
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+  color: #eee;
+}
+
+@media (max-width: 576px) {
+  .slide1_root {
+    min-height: 240vh;
+    min-width: 200vw;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    position: relative;
+  }
+
+  .slide1_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem;
+    padding-top: 20rem;
+  }
+
+  .slide1_content_head {
+    font-weight: 700;
+    font-size: 10rem;
+  }
+
+  .content_head_dot {
+    color: #ff5252;
+  }
+
+  .slide1_description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-size: 3rem;
+    padding: 0 5rem;
+    padding-top: 10rem;
+  }
+
+  .nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: translate(0, 160px) rotate(90deg);
+    -ms-transform: translate(0, 160px) rotate(90deg);
+    transform: translate(0, 160px) rotate(90deg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 200px;
+  }
+
+  .nav_item {
+    outline: none;
+    font-size: 2.3rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+    color: #eee;
+    cursor: pointer;
+    padding: 0 40px;
+  }
+
+  .slide1_logo {
+    height: 200px;
+    width: 200px;
+    left: 30px;
+    top: 30px;
+    position: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('./assets/logo.png');
+  }
+
+  .loop {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border: 50px solid #ff5252;
+    border-radius: 40%;
+    opacity: 0.6;
+  }
+
+  .loop_one {
+    top: 500px;
+    left: -100px;
+    z-index: -1;
+  }
+  .loop_two {
+    bottom: 0;
+    left: 200px;
+    z-index: -1;
+  }
+  .loop_three {
+    bottom: -100px;
+    left: 240px;
+    border: 50px solid #eee;
+    z-index: -1;
+  }
+  .loop_four {
+    top: 1100px;
+    right: -100px;
+    z-index: -1;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
