@@ -17,11 +17,38 @@ const Slide1 = () => {
         <p className='slide1_description_para'>based in India</p>
       </div>
       <div className='nav'>
-        <button className='nav_item'>GITHUB</button>
-        <button className='nav_item'>LINKEDIN</button>
-        <button className='nav_item'>TWITTER</button>
-        <button className='nav_item'>FACEBOOK</button>
-        <button className='nav_item'>MAIL</button>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://github.com/blackwolf08'
+          className='nav_item'
+        >
+          GITHUB
+        </a>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://linkedin.com/in/sunnydhama'
+          className='nav_item'
+        >
+          LINKEDIN
+        </a>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://facebook.com/beingsunnydhama'
+          className='nav_item'
+        >
+          FACEBOOK
+        </a>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='mailto: dhamasunny98@gmail.com'
+          className='nav_item'
+        >
+          MAIL
+        </a>
       </div>
       <div className='loop loop_one' />
       <div className='loop loop_two' />
