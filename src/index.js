@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './impress.css';
-import './index.css';
+import './index.scss';
 import './animate.css';
 import App from './App';
 

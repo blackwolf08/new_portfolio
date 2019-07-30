@@ -17,9 +17,10 @@ const Slide1 = () => {
         <p className='slide1_description_para'>based in India</p>
       </div>
       <div className='nav'>
-        <button className='nav_item'>FACEBOOK</button>
+        <button className='nav_item'>GITHUB</button>
         <button className='nav_item'>LINKEDIN</button>
         <button className='nav_item'>TWITTER</button>
+        <button className='nav_item'>FACEBOOK</button>
         <button className='nav_item'>MAIL</button>
       </div>
       <div className='loop loop_one' />

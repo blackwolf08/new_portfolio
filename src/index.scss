@@ -91,7 +91,7 @@ body {
 
 @media (max-width: 576px) {
   .slide1_root {
-    min-height: 200vh;
+    min-height: 230vh;
     margin-top: -200px;
     min-width: 200vw;
     -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
@@ -114,7 +114,7 @@ body {
 
   .slide1_content_head {
     font-weight: 700;
-    font-size: 10rem;
+    font-size: 8rem;
   }
 
   .content_head_dot {
@@ -141,9 +141,9 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    -webkit-transform: translate(0, 160px) rotate(90deg);
-    -ms-transform: translate(0, 160px) rotate(90deg);
-    transform: translate(0, 160px) rotate(90deg);
+    -webkit-transform: translate(0, 340px) rotate(90deg);
+    -ms-transform: translate(0, 340px) rotate(90deg);
+    transform: translate(0, 340px) rotate(90deg);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -169,6 +169,7 @@ body {
     color: #eee;
     cursor: pointer;
     padding: 0 40px;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
   }
 
   .slide1_logo {
@@ -180,6 +181,9 @@ body {
     background-position: center center;
     background-size: cover;
     background-image: url('./assets/logo.png');
+    &:hover {
+      filter: brightness(0.5);
+    }
   }
 
   .loop {
@@ -193,7 +197,7 @@ body {
 
   .loop_one {
     top: 500px;
-    left: -100px;
+    left: -120px;
     z-index: -1;
   }
   .loop_two {
@@ -211,6 +215,159 @@ body {
     top: 1100px;
     right: -100px;
     z-index: -1;
+  }
+
+  .slide2_root {
+    min-height: 230vh;
+    margin-top: -200px;
+    min-width: 200vw;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    position: relative;
+    p {
+      font-size: 3.5rem;
+      padding: 5rem;
+    }
+    .loop_five {
+      top: 200px;
+      left: -120px;
+      z-index: -1;
+      border: 50px solid #eee;
+    }
+    .loop_seven {
+      bottom: -100px;
+      left: 50px;
+      border: 50px solid #eee;
+      z-index: -1;
+    }
+    .loop_eight {
+      top: 500px;
+      right: -100px;
+      z-index: -1;
+    }
+    .logo_javascript {
+      height: 200px;
+      width: 200px;
+      background-image: url('./assets/javascript.png');
+      background-size: cover;
+      background-position: center center;
+      filter: grayscale(1);
+      position: absolute;
+      bottom: 0;
+    }
+    .logo_nodejs {
+      height: 200px;
+      width: 200px;
+      background-image: url('./assets/node.png');
+      background-size: cover;
+      background-position: center center;
+      filter: grayscale(1);
+      position: absolute;
+      right: -20px;
+      top: -30px;
+    }
+    .logo_react {
+      height: 200px;
+      width: 200px;
+      background-image: url('./assets/react.png');
+      background-size: cover;
+      background-position: center center;
+      filter: grayscale(1);
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      animation: react_logo 10s linear infinite;
+    }
+
+    @keyframes react_logo {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(90deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      75% {
+        transform: rotate(270deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .slide3_root {
+    min-height: 230vh;
+    margin-top: -200px;
+    min-width: 200vw;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    position: relative;
+    .slide3_h1 {
+      padding-left: 5rem;
+      padding-top: 5rem;
+      font-size: 6rem;
+      span {
+        color: #ff5252;
+      }
+    }
+    .ss_work_two {
+      height: 300px;
+      width: 100%;
+      display: block;
+      font-size: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: brightness(1) contrast(0) grayscale(1);
+    }
+    .slide4_code_logo {
+      background-image: url('./assets/code.jpg');
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      height: 300px;
+      width: 300px;
+      filter: grayscale(1);
+      opacity: 0.6;
+      bottom: 300px;
+      right: 100px;
+    }
+    .ss_work_one {
+      margin-left: -120px;
+    }
+    .work_content {
+      font-size: 2.8rem;
+      padding: 5rem;
+      .link {
+        color: #999;
+      }
+    }
+    .bar1 {
+      height: 300px;
+      width: 100px;
+      opacity: 0.6;
+      background-color: #eee;
+      transform: rotate(90deg);
+      position: absolute;
+      bottom: 0;
+    }
+    .bar2 {
+      height: 300px;
+      width: 100px;
+      opacity: 0.6;
+      background-color: #eee;
+      transform: rotate(180deg);
+      position: absolute;
+      right: -30px;
+      top: -30px;
+    }
+    .loop_nine {
+      right: -50px;
+      bottom: -50px;
+      position: absolute;
+    }
   }
 }
 

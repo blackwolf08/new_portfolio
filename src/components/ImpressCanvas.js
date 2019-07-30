@@ -21,10 +21,9 @@ const ImpressCanvas = props => {
         <Step
           id={'Hello'}
           data={{
-            x: -1000,
+            x: -2000,
             y: -100,
-            scale: 1,
-            z: 1000
+            scale: 1
           }}
           className='slide1'
         >
@@ -33,9 +32,9 @@ const ImpressCanvas = props => {
         <Step
           id={'work'}
           data={{
-            x: 1000,
+            x: 2000,
             y: -100,
-            scale: 2
+            scale: 1
           }}
           className='slide2'
         >
@@ -44,20 +43,19 @@ const ImpressCanvas = props => {
         <Step
           className='slide3'
           data={{
-            x: 3000,
+            x: 6000,
             y: -100,
-            rotateZ: 270,
-            scale: 4
+            scale: 1
           }}
         >
           <Slide3 />
         </Step>
         <Step
           data={{
-            x: -1000,
+            x: 6000,
             y: -100,
             scale: 1,
-            z: 120000
+            z: -80000
           }}
           className='slide4'
         >
