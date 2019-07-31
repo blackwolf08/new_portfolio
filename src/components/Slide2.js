@@ -14,6 +14,7 @@ const Slide2 = () => {
       <div className='logo_react' />
       <div className='logo_nodejs' />
       <div className='logo_javascript' />
+      <span />
     </div>
   );
 };
