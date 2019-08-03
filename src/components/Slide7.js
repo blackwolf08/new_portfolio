@@ -3,8 +3,9 @@ import React from 'react';
 const Slide7 = () => {
   return (
     <div className='slide7_root'>
-      <p>Want More? Hire me</p>
+      <div className='animated_svg' />
       <p>Hire me?</p>
+      <button>Get my resume!</button>
     </div>
   );
 };

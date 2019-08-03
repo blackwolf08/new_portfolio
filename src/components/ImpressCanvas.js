@@ -23,7 +23,7 @@ const ImpressCanvas = props => {
           </p>
         }
       >
-        {/* <Step
+        <Step
           id={'Hello'}
           data={{
             x: -2000,
@@ -65,8 +65,8 @@ const ImpressCanvas = props => {
           className='slide4'
         >
           <Slide4 />
-        </Step> */}
-        {/* <Step
+        </Step>
+        <Step
           data={{
             x: 6000,
             y: -100,
@@ -76,8 +76,8 @@ const ImpressCanvas = props => {
           className='slide5'
         >
           <Slide5 />
-        </Step> */}
-        {/* <Step
+        </Step>
+        <Step
           data={{
             x: 6000,
             y: -100,
@@ -87,13 +87,13 @@ const ImpressCanvas = props => {
           className='slide6'
         >
           <Slide6 />
-        </Step> */}
+        </Step>
         <Step
           data={{
             x: 6000,
             y: -100,
-            scale: 2,
-            z: -320000
+            scale: 1,
+            z: -500000
           }}
           className='slide7'
         >
@@ -101,10 +101,10 @@ const ImpressCanvas = props => {
         </Step>
         <Step
           data={{
-            x: 5300,
+            x: 3500,
             y: -100,
             scale: 1,
-            z: -320000
+            z: -500000
           }}
           className='slide8'
         >
@@ -112,10 +112,10 @@ const ImpressCanvas = props => {
         </Step>
         <Step
           data={{
-            x: 6800,
+            x: 8500,
             y: -100,
             scale: 1,
-            z: -320000
+            z: -500000
           }}
           className='slide9'
         >
