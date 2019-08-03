@@ -181,10 +181,9 @@ body {
     background-position: center center;
     background-size: cover;
     background-image: url('./assets/logo.png');
-    &:hover {
-      -webkit-filter: brightness(0.5);
-      filter: brightness(0.5);
-    }
+    filter: grayscale(1);
+    border-radius: 0;
+    opacity: 0.7;
   }
 
   .loop {
@@ -425,6 +424,21 @@ body {
       position: absolute;
       z-index: -1;
     }
+  }
+  .slide4_flight_logo {
+    @extend .slide4_code_logo;
+    filter: brightness(1) contrast(0.3) !important;
+    background-image: url('./assets/19flight.png') !important;
+  }
+  .slide4_futura_logo {
+    @extend .slide4_code_logo;
+    background-image: url('./assets/undraw_japan_ubgk.86920f61.png') !important;
+  }
+
+  .slide7_root {
+    background-color: rgba($color: #fff, $alpha: 0.3);
+    height: 400px;
+    width: 400px;
   }
 }
 
