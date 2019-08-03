@@ -513,6 +513,7 @@ body {
   .slide1_content_head {
     font-weight: 700;
     font-size: 8rem;
+    margin-left: 0;
   }
 
   .content_head_dot {
@@ -533,6 +534,7 @@ body {
     font-size: 3rem;
     padding: 0 5rem;
     padding-top: 1rem;
+    margin-left: 0;
   }
 
   .nav {
@@ -556,6 +558,8 @@ body {
     justify-content: space-around;
     padding-top: 10px;
     width: 200px;
+    margin-top: 50px;
+    right: -40px;
   }
 
   .nav_item {
