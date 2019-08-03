@@ -5,7 +5,10 @@ const Slide7 = () => {
     <div className='slide7_root'>
       <div className='animated_svg' />
       <p>Hire me?</p>
-      <button>Get my resume!</button>
+
+      <a href='/assets/resume.pdf' className='resume' download>
+        Download Resume!
+      </a>
     </div>
   );
 };

@@ -9,7 +9,6 @@ import Slide5 from './Slide5';
 import Slide6 from './Slide6';
 import Slide7 from './Slide7';
 import Slide8 from './Slide8';
-import Slide9 from './Slide9';
 
 const ImpressCanvas = props => {
   return (
@@ -109,17 +108,6 @@ const ImpressCanvas = props => {
           className='slide8'
         >
           <Slide8 />
-        </Step>
-        <Step
-          data={{
-            x: 8500,
-            y: -100,
-            scale: 1,
-            z: -500000
-          }}
-          className='slide9'
-        >
-          <Slide9 />
         </Step>
       </Impress>
     </Fragment>

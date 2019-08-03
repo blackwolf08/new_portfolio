@@ -1,8 +1,8 @@
 {
-  "name": "new_portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sunnydhama.me/",
+  "homepage": "https://blackwolf08.github.io/blackwolf08.github.io",
   "dependencies": {
     "gh-pages": "^2.1.0",
     "node-sass": "^4.12.0",
