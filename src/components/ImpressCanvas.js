@@ -59,7 +59,7 @@ const ImpressCanvas = props => {
             x: 6000,
             y: -100,
             scale: 1,
-            z: -80000
+            z: -3000
           }}
           className='slide4'
         >
@@ -70,7 +70,7 @@ const ImpressCanvas = props => {
             x: 6000,
             y: -100,
             scale: 1,
-            z: -160000
+            z: -6000
           }}
           className='slide5'
         >
@@ -81,7 +81,7 @@ const ImpressCanvas = props => {
             x: 6000,
             y: -100,
             scale: 1,
-            z: -240000
+            z: -9000
           }}
           className='slide6'
         >
@@ -92,7 +92,7 @@ const ImpressCanvas = props => {
             x: 6000,
             y: -100,
             scale: 1,
-            z: -500000
+            z: -12000
           }}
           className='slide7'
         >
@@ -103,7 +103,7 @@ const ImpressCanvas = props => {
             x: 3500,
             y: -100,
             scale: 1,
-            z: -500000
+            z: -12000
           }}
           className='slide8'
         >

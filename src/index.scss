@@ -16,6 +16,7 @@ body {
 .slide1_root {
   height: 90vh;
   width: 90vw;
+  background-color: #333;
   -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   position: relative;
@@ -80,6 +81,17 @@ body {
   justify-content: space-around;
   width: 100px;
 }
+.slide1_root,
+.slide2_root,
+.slide3_root,
+.slide4_root,
+.slide5_root,
+.slide6_root,
+.slide7_root,
+.slide8_root,
+.slide9_root {
+  background-color: #333;
+}
 
 .nav_item {
   outline: none;
@@ -113,6 +125,7 @@ body {
   border: 50px solid #ff5252;
   border-radius: 40%;
   opacity: 0.6;
+  z-index: 1 !important;
 }
 
 .loop_one {
@@ -140,6 +153,8 @@ body {
 .slide2_root {
   height: 90vh;
   width: 90vw;
+  background-color: #333;
+
   -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   position: relative;
@@ -251,6 +266,8 @@ body {
 .slide3_root {
   height: 90vh;
   width: 90vw;
+  background-color: #333;
+
   -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   position: relative;
@@ -355,6 +372,8 @@ body {
 
 .slide7_root {
   @extend .slide3_root;
+  background-color: #333;
+
   background-color: #444;
   display: flex;
   flex-direction: column;
@@ -405,6 +424,8 @@ body {
 .slide8_root {
   height: 90vh;
   width: 82vw;
+  background-color: #333;
+
   -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   position: relative;
@@ -490,6 +511,8 @@ body {
   }
   .slide1_root {
     min-height: 230vh;
+    background-color: #333;
+
     margin-top: -200px;
     min-width: 200vw;
     -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
@@ -623,6 +646,8 @@ body {
     min-height: 230vh;
     margin-top: -200px;
     min-width: 200vw;
+    background-color: #333;
+
     -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     position: relative;
@@ -734,6 +759,8 @@ body {
   .slide3_root {
     min-height: 230vh;
     margin-top: -200px;
+    background-color: #333;
+
     min-width: 200vw;
     -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
@@ -972,6 +999,17 @@ body {
       font-size: 5rem;
       padding: 0 4rem;
     }
+  }
+  .slide1_root,
+  .slide2_root,
+  .slide3_root,
+  .slide4_root,
+  .slide5_root,
+  .slide6_root,
+  .slide7_root,
+  .slide8_root,
+  .slide9_root {
+    background-color: #333;
   }
 }
 
