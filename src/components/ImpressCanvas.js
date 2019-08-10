@@ -25,7 +25,7 @@ const ImpressCanvas = props => {
         <Step
           id={'Hello'}
           data={{
-            x: -2000,
+            x: -1500,
             y: -100,
             scale: 1
           }}
@@ -34,9 +34,9 @@ const ImpressCanvas = props => {
           <Slide1 />
         </Step>
         <Step
-          id={'work'}
+          id={'About'}
           data={{
-            x: 2000,
+            x: 1500,
             y: -100,
             scale: 1
           }}
@@ -45,9 +45,10 @@ const ImpressCanvas = props => {
           <Slide2 />
         </Step>
         <Step
+          id={'Uniqgrid'}
           className='slide3'
           data={{
-            x: 6000,
+            x: 3250,
             y: -100,
             scale: 1
           }}
@@ -55,8 +56,9 @@ const ImpressCanvas = props => {
           <Slide3 />
         </Step>
         <Step
+          id={'iSocial'}
           data={{
-            x: 6000,
+            x: 3250,
             y: -100,
             scale: 1,
             z: -3000
@@ -66,44 +68,48 @@ const ImpressCanvas = props => {
           <Slide4 />
         </Step>
         <Step
+          id={'Traveligo'}
           data={{
-            x: 6000,
+            x: 2750,
             y: -100,
             scale: 1,
-            z: -6000
+            z: 3000
           }}
           className='slide5'
         >
           <Slide5 />
         </Step>
         <Step
+          id={'Futura'}
           data={{
-            x: 6000,
+            x: 3000,
             y: -100,
             scale: 1,
-            z: -9000
+            z: -1500
           }}
           className='slide6'
         >
           <Slide6 />
         </Step>
         <Step
+          id={'Resume'}
           data={{
-            x: 6000,
+            x: -1500,
             y: -100,
             scale: 1,
-            z: -12000
+            z: 3000
           }}
           className='slide7'
         >
           <Slide7 />
         </Step>
         <Step
+          id={'Skill'}
           data={{
-            x: 3500,
+            x: -1500,
             y: -100,
             scale: 1,
-            z: -12000
+            z: -3000
           }}
           className='slide8'
         >
