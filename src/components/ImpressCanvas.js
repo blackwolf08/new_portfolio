@@ -73,7 +73,7 @@ const ImpressCanvas = props => {
             x: -1500,
             y: -1500,
             scale: 1,
-            rotateZ: 180
+            rotateX: 180
           }}
           className='slide5'
         >
@@ -94,11 +94,11 @@ const ImpressCanvas = props => {
         <Step
           id={'Resume'}
           data={{
-            x: 0,
-            y: 0,
+            x: 3000,
+            y: 1500,
             scale: 1,
             z: -2000,
-            rotateY: 90
+            rotateX: -90
           }}
           className='slide7'
         >
@@ -107,11 +107,10 @@ const ImpressCanvas = props => {
         <Step
           id={'Skill'}
           data={{
-            x: 0,
-            y: 0,
-            z: 2000,
+            x: 3000,
+            y: -1500,
             scale: 1,
-            rotateY: 90
+            rotateX: 90
           }}
           className='slide8'
         >
