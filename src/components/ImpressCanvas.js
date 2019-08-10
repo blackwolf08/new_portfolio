@@ -48,7 +48,7 @@ const ImpressCanvas = props => {
           id={'Uniqgrid'}
           className='slide3'
           data={{
-            x: 3250,
+            x: 3000,
             y: -100,
             scale: 1
           }}
@@ -58,7 +58,7 @@ const ImpressCanvas = props => {
         <Step
           id={'iSocial'}
           data={{
-            x: 3250,
+            x: -1500,
             y: -100,
             scale: 1,
             z: -3000
@@ -70,10 +70,10 @@ const ImpressCanvas = props => {
         <Step
           id={'Traveligo'}
           data={{
-            x: 2750,
+            x: 1500,
             y: -100,
             scale: 1,
-            z: 3000
+            z: -3000
           }}
           className='slide5'
         >
@@ -85,7 +85,7 @@ const ImpressCanvas = props => {
             x: 3000,
             y: -100,
             scale: 1,
-            z: -1500
+            z: -3000
           }}
           className='slide6'
         >
@@ -94,7 +94,7 @@ const ImpressCanvas = props => {
         <Step
           id={'Resume'}
           data={{
-            x: -1500,
+            x: 1500,
             y: -100,
             scale: 1,
             z: 3000
@@ -109,7 +109,7 @@ const ImpressCanvas = props => {
             x: -1500,
             y: -100,
             scale: 1,
-            z: -3000
+            z: 3000
           }}
           className='slide8'
         >
