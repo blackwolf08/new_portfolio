@@ -98,7 +98,7 @@ const ImpressCanvas = props => {
             y: 1500,
             scale: 1,
             z: -2000,
-            rotateX: -90
+            rotateZ: 0
           }}
           className='slide7'
         >
