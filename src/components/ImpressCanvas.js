@@ -25,8 +25,8 @@ const ImpressCanvas = props => {
         <Step
           id={'Hello'}
           data={{
-            x: -1500,
-            y: -100,
+            x: 0,
+            y: 0,
             scale: 1
           }}
           className='slide1'
@@ -37,7 +37,7 @@ const ImpressCanvas = props => {
           id={'About'}
           data={{
             x: 1500,
-            y: -100,
+            y: 1500,
             scale: 1
           }}
           className='slide2'
@@ -48,8 +48,8 @@ const ImpressCanvas = props => {
           id={'Uniqgrid'}
           className='slide3'
           data={{
-            x: 3000,
-            y: -100,
+            x: 1500,
+            y: -1500,
             scale: 1
           }}
         >
@@ -59,9 +59,9 @@ const ImpressCanvas = props => {
           id={'iSocial'}
           data={{
             x: -1500,
-            y: -100,
+            y: 1500,
             scale: 1,
-            z: -3000
+            rotateZ: 90
           }}
           className='slide4'
         >
@@ -70,10 +70,10 @@ const ImpressCanvas = props => {
         <Step
           id={'Traveligo'}
           data={{
-            x: 1500,
-            y: -100,
+            x: -1500,
+            y: -1500,
             scale: 1,
-            z: -3000
+            rotateZ: 180
           }}
           className='slide5'
         >
@@ -83,9 +83,9 @@ const ImpressCanvas = props => {
           id={'Futura'}
           data={{
             x: 3000,
-            y: -100,
+            y: 0,
             scale: 1,
-            z: -3000
+            rotateZ: 270
           }}
           className='slide6'
         >
@@ -94,10 +94,11 @@ const ImpressCanvas = props => {
         <Step
           id={'Resume'}
           data={{
-            x: 1500,
-            y: -100,
+            x: 0,
+            y: 0,
             scale: 1,
-            z: 3000
+            z: -2000,
+            rotateY: 90
           }}
           className='slide7'
         >
@@ -106,10 +107,11 @@ const ImpressCanvas = props => {
         <Step
           id={'Skill'}
           data={{
-            x: -1500,
-            y: -100,
+            x: 0,
+            y: 0,
+            z: 2000,
             scale: 1,
-            z: 3000
+            rotateY: 90
           }}
           className='slide8'
         >
